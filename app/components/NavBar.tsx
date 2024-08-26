@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function NavBar(){
   return (
-    <nav className="bg-gray-50">
+    <nav className="bg-gray-200">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -31,7 +31,7 @@ export default function NavBar(){
             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                 <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert h-10 w-auto"
+                    className="relative h-10 w-auto"
                     src="/eib.svg"
                     alt="Eastern International Bank Logo"
                     width={180}
