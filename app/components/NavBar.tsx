@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function NavBar(){
   return (
-    <nav className="bg-gray-200">
+    <nav className="bg-white bg-opacity-20">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
